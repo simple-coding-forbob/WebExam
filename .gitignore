@@ -1,0 +1,10 @@
+# vscode 
+.vscode/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.tar.gz
+*.rar
