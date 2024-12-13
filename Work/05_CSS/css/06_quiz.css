@@ -1,0 +1,16 @@
+#hi {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#hi2 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+#greeting {
+    background-color: yellow;
+}
+#greeting2 {
+    background-color: green;
+}

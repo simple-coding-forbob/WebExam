@@ -1,0 +1,9 @@
+h3 {
+    color: blue;
+}
+
+li {
+    color: grey;
+    /* 목록 점 없애기 */
+    list-style-type: none;
+}

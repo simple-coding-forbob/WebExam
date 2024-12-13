@@ -1,0 +1,18 @@
+h3 {
+    color: black;
+}
+p {
+    color: green;
+    /* TODO: 글자 크기 속성 : rem (기본폰트:16px 의 배수)*/
+    font-size: 2rem;
+    /* TODO: 행간 : 폰트 배수 */
+    line-height: 2;
+}
+
+span {
+    color: blue;
+    /* TODO: 굵은 글씨 속성 */
+    font-weight: bold;
+    /* TODO: 밑줄 */
+    text-decoration: underline;
+}

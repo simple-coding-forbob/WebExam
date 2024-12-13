@@ -1,0 +1,15 @@
+h2 {
+    font-size: 2rem;
+}
+li {
+    list-style-type: none;
+    line-height: 2;
+}
+span {
+    font-weight: bold;
+}
+p {
+    text-decoration:underline;
+    color: green;
+    line-height: 2;
+}
