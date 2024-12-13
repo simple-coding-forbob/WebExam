@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
+.quiz {
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
