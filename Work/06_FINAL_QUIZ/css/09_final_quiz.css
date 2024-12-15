@@ -1,0 +1,17 @@
+p {
+    font-size: 0.8rem;
+}
+li {
+    list-style-type: none;
+    font-size: 0.7rem;
+    color:grey;
+}
+.bold {
+    font-weight: bold;
+    color: lightseagreen;
+}
+.time {
+    font-size: 2rem;
+    font-weight: bold;
+    color: green;
+}

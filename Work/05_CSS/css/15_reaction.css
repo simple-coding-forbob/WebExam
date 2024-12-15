@@ -1,0 +1,7 @@
+.example:hover {
+    color: red;
+}
+
+.example:active {
+    color: blue;
+}

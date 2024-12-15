@@ -1,0 +1,7 @@
+.quiz:hover {
+    color: green;
+}
+
+.quiz:active {
+    color: orange;
+}
