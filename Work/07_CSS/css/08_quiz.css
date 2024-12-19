@@ -1,0 +1,8 @@
+.quiz {
+    width:20vw;
+    border: 2px solid orange;
+}
+.quiz > img {
+    max-width: 100%;
+    height: auto;
+}

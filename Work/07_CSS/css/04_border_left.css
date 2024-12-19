@@ -1,0 +1,9 @@
+.apple {
+    border-left: 3px solid green;
+    padding: 10px;
+}
+.apple-text {
+    border-top: 3px solid skyblue;
+    padding: 5px;
+    width: 30vw;
+}

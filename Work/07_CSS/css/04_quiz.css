@@ -1,0 +1,9 @@
+.grape {
+    border-left: 2px solid blue;
+    padding: 10px;
+}
+.grape-text {
+    border-bottom: 2px solid green;
+    padding: 5px;
+    width: 30vw;
+}

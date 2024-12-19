@@ -1,0 +1,16 @@
+#quiz1 {
+    border-top: 2px solid green;
+    padding: 5px;
+    width: 20vw;
+}
+#quiz2 {
+    border-left: 2px solid blue;
+    padding: 5px;
+    width: 20vw;
+}
+#quiz3 {
+    border: 2px solid red;
+    padding: 5px;
+    width: 20vw;
+    border-radius: 5px;
+}

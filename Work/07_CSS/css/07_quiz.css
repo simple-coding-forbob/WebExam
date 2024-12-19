@@ -1,0 +1,9 @@
+.quiz {
+    width: 99vw;
+    height: 0;
+    background-image: url("../../img/7_7_2_quiz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: calc(3/16 * 100%);
+}
