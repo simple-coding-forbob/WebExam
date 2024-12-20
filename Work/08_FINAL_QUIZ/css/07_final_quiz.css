@@ -1,0 +1,21 @@
+#banner {
+    width: 270px;
+    background-color: #FAF0E6;
+    border: 1px solid lightgray;
+    padding: 1.2rem;
+    margin-top: 1.2rem;
+    margin-left: 1.2rem;
+}
+#button {
+    width: 100px;
+    font-size: 10px;
+    border-radius: 10px;
+    background-color: #DC143C;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-top: 2rem;
+}
+p {
+    margin-top: 1.2rem;
+}

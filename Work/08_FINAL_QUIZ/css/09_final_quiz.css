@@ -1,0 +1,15 @@
+.card {
+    width: 300px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.card > img {
+    max-width: 100%;
+    height: auto;
+}
+.card-body {
+    border-top: 1px solid lightgray;
+    padding: 1rem;
+}

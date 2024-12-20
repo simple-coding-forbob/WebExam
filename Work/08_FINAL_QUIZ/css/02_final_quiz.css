@@ -1,0 +1,16 @@
+li {
+    list-style-type: none;
+}
+.heading {
+    width: 50vw;
+    border: 5px solid blue;
+    padding: 1rem;
+    margin: 2rem;
+}
+.text {
+    margin-left: 3rem;
+}
+.bold {
+    font-weight: bold;
+    text-decoration: underline;
+}

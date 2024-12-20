@@ -1,0 +1,14 @@
+.quiz {
+    width: 100px;
+    height: 100px;
+    background-color: lightyellow;
+    margin: 5px;
+    display: inline;
+}
+.quiz2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    margin: 5px;
+    display: inline;
+}

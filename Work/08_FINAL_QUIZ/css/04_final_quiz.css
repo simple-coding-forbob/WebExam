@@ -1,0 +1,10 @@
+h3 {
+    border-left: 8px solid blue;
+    padding-left: 10px;
+}
+p {
+    border: 1px solid black;
+    width: 500px;
+    padding: 20px;
+    margin-top: 20px;
+}
