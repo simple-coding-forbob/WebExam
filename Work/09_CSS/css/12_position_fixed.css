@@ -1,0 +1,11 @@
+.top-bar {
+    height: 10vh;
+    background-color: aqua;
+    position: fixed;
+    left: 0;
+    top:0;
+    right: 0;
+}
+.container {
+    margin-top: 10vh;
+}

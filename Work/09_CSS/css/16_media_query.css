@@ -1,0 +1,16 @@
+/* phone */
+.heading {
+    background-color: lightcoral;
+}
+/* tablet */
+@media screen and (min-width: 768px){
+    .heading {
+        background-color: lightgreen;
+    }
+}
+/* pc */
+@media screen and (min-width: 1024px){
+    .heading {
+        background-color: lightskyblue;
+    }
+}

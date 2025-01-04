@@ -1,0 +1,14 @@
+.parent {
+    width: 10vw;
+    height: 10vh;
+    border: 1px solid gray;
+    position: relative;
+}
+.box {
+    width: 30%;
+    height: 30%;
+    border: 1px solid red;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

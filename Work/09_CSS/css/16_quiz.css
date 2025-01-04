@@ -1,0 +1,16 @@
+/* phone */
+.text {
+    background-color: green;
+}
+/* tablet */
+@media screen and (min-width: 768px){
+    .text {
+        background-color: yellow;
+    }
+}
+/* pc */
+@media screen and (min-width: 1024px){
+    .text {
+        background-color: skyblue;
+    }
+}

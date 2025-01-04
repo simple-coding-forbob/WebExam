@@ -1,0 +1,20 @@
+.container-quiz {
+    width: 99vw;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 5px solid blue;
+    margin-top: 10px;
+}
+.quiz1 {
+    background-color: violet;
+}
+.quiz2 {
+    background-color: beige;
+}
+.quiz3 {
+    background-color: lightgray;
+}
+.quiz4 {
+    background-color: lightskyblue;
+}

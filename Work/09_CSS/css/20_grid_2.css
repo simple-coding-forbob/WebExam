@@ -1,0 +1,19 @@
+.container {
+    width: 99vw;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    border: 5px solid orange;
+}
+.example1 {
+    background-color: lightblue;
+}
+.example2 {
+    background-color: lightgreen;
+}
+.example3 {
+    background-color: lightcoral;
+}
+.example4 {
+    background-color: lightyellow;
+}
