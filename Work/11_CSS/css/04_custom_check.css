@@ -1,0 +1,20 @@
+input[type="checkbox"] {
+    /* TODO: 글자와 라디오 버튼 중심을 중앙으로 맞춤
+        음수마진을 주어서 1px 위로 올려야함 : -1px
+     */
+    margin-top:-1px;
+    vertical-align: middle;
+    appearance: none;
+
+    /* TODO: 배경색이 차지할 영역을 다시 지정: 외곽선, 컨텐츠, 글자 등이 있음 */
+    background-clip: content-box;
+    padding: 0.25rem;
+
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 1px solid gray;
+}
+input[type="checkbox"]:checked {
+    border-color: var(--green-dark-30);
+    background-color: var(--green-dark-30);
+}

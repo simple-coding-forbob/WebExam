@@ -1,0 +1,18 @@
+input[type="radio"] {
+    /* TODO: 글자와 라디오 버튼 중심을 중앙으로 맞춤
+        음수마진을 주어서 1px 위로 올려야함 : -1px
+     */
+    margin-top:-1px;
+    vertical-align: middle;
+    /* TODO: 기본 스타일 제거: 화면에서 사라짐 */
+    appearance: none;
+
+    border: 2px solid gray;
+    border-radius: 50%;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+input[type="radio"]:checked {
+    border: 0.4rem solid var(--blue-light-30);
+}

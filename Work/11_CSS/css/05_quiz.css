@@ -1,0 +1,25 @@
+#page {width: 99vw;height: 99vh;margin: 0 auto;}
+nav {width: 100%;margin: 0 auto;}
+nav .brand {float:none; text-align: center; padding:1.5rem;}
+nav .fab {display:block; position:absolute; left:15px; top:25px;}
+nav .fab img {width: 2rem;}
+nav .fac {display:block; position:absolute; right:15px; top:25px;}
+nav .fac img {width: 2rem;}
+nav .menu {float:none; height:auto; margin: 0 15px; /*display: none;*/}
+nav .menu li {float:left; width:33%; box-sizing:border-box; border:1px solid var(--grayscale-20);}
+nav .menu li a {display:block; text-align: center; height:3.75rem; line-height:3.75rem; font-size:1rem;}
+nav .menu li a:hover {background-color: var(--green-light-30); color: var(--white);}
+
+@media screen and (min-width: 768px) {
+  nav {width: 90%;}
+  nav .brand {float:left; padding:2.3rem;}
+  nav .fab {display:none;}
+  nav .fac {display:none;}
+  nav .menu {float:right; padding-top:5px;}
+  nav .menu li {float:left; width:auto; border:none;}
+  nav .menu li a {display:block; padding:1rem 0.6rem; font-size:1rem;}
+}
+
+@media screen and (min-width: 1199px) {
+  nav {width: 60%;}
+}

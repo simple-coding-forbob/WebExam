@@ -1,0 +1,10 @@
+.quiz > li {
+    list-style-type: none;
+    background-color: beige;
+}
+.quiz > li {
+    float: left;
+    margin-left: 1rem;
+    padding: 5px;
+}
+.clear {clear: both;}

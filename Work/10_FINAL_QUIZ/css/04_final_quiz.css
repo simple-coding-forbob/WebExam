@@ -94,9 +94,8 @@ footer {
 #customer {
     float: right;
 }
-/* pc */
-/* tablet */
-@media screen and (min-width: 768px){
+
+@media screen and (min-width: 768px) {
     #logo {
         font-size: 1.5rem;
     }
@@ -105,8 +104,8 @@ footer {
         font-size: 1.5rem;
     } 
     .item {
-        margin-right: 5rem;
-        margin-left: 5rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
     }
     section {
         width: 50%;
@@ -114,7 +113,17 @@ footer {
     }
     aside {
         width: 49%;
-        height: 63vh;
+        height: 40vh;
         float: right;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    .item {
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+    aside {
+        height: 63vh;
     }
 }
