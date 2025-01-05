@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
 .head {
-    /* 구글 Noto Sans 적용 */
-    font-family: "Noto Sans KR", sans-serif;
-    font-size: 60px;
-    text-align: center;
+  font-family: "Noto Sans KR", serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.middle {
+  text-align: center;
+  font-size: 5rem;
+  color: coral;
+  font-family: "Rubik Vinyl", serif;
 }
