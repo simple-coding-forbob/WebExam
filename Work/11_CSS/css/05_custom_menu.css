@@ -6,7 +6,7 @@ nav .fab img {width: 2rem;}
 nav .fac {display:block; position:absolute; right:15px; top:25px;}
 nav .fac img {width: 2rem;}
 nav .menu {float:none; height:auto; margin: 0 15px; /*display: none;*/}
-nav .menu li {float:left; width:50%; box-sizing:border-box; border:1px solid var(--grayscale-20);}
+nav .menu li {list-style-type: none; float:left; width:50%; box-sizing:border-box; border:1px solid var(--grayscale-20);}
 nav .menu li a {display:block; text-align: center; height:3.75rem; line-height:3.75rem; font-size:1rem;}
 nav .menu li a:hover {background-color: var(--blue-light-30); color: var(--white);}
 
