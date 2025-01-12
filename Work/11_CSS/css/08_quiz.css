@@ -1,0 +1,15 @@
+footer {clear: both;height: 6rem;background-color: beige;font-size: 14px;font-style: italic;}
+#customer {height: 50%;display: flex;align-items: center;margin-left: 2rem;}
+#address {height: 50%;display: flex;align-items: center;margin-left: 2rem;}
+#address > div > h5 {margin: 4px 0 4px 0;}
+#address > div > p {margin: 4px 0 4px 0;}
+
+
+@media screen and (min-width: 768px) {
+    #customer {height: 100%; float: left;}
+    #address {height: 100%; float: right;}
+}
+  
+@media screen and (min-width: 1024px) {
+
+}

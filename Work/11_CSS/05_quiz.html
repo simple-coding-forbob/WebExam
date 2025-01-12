@@ -1,35 +1,51 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/00_style.css">
-    <link rel="stylesheet" href="./css/05_quiz.css">
-    <!-- 파비콘 : 웹브라우저 탭 글자앞에 이미지 -->
-    <link rel="icon" type="image/png" href="../img/simple-coding.png"/>
+    <link rel="stylesheet" href="./css/05_quiz.css" />
 </head>
 
-<body>
+<body>       
     <div id="page">
+        <header>
+            <div id="logo">
+                <img src="../img/simple-coding.png" width="14px" alt="로고">
+                <span>simple-coding</span>
+            </div>
+            <div id="top">로그아웃 | 회원정보</div>
+        </header>
         <nav>
-            <h1 class="brand"><a href="#">BRAND</a></h1>
-            <div class="fab">
-                <img src="../img/11_5_icon_1.png" alt="햄버거메뉴">
-            </div>
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Course</a></li>
-                <li><a href="#">Course2</a></li>
-                <li><a href="#">Forum</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul id="menu">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Portfolio</li>
+                <li class="item">Course</li>
             </ul>
-            <div class="fac">                                         
-                <img src="../img/11_5_icon_2.png" alt="닫기버튼">
-            </div>
         </nav>
+        <div id="content">
+            <aside>
+                <ul>
+                    <li>- HTML 강의</li>
+                    <li>- 일시: 09:00 ~ 18:00</li>
+                    <li>- 내용: HTML 실습 따라하기</li>
+                </ul>
+            </aside>
+            <section>
+                <img src="../img/10_4_final_quiz.jpg" />
+            </section>
+        </div>
+        <footer>
+            <div id="customer">
+                <p>Tel: 010-0000-0000</p>
+            </div>
+            <div id="address">
+                <p>부산시 동래구 충렬대로</p>
+            </div>
+        </footer>
     </div>
 </body>
 

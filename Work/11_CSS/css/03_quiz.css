@@ -10,10 +10,10 @@ section img {max-width: 100%; height: auto; display: block;}
 aside {margin-top: 10px;color: gray; width: 100%; padding: 10px;}
 aside ul li {padding: 10px;}
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) { 
     #content{float: left;}
-    section {width: 50%;float: left;}
-    aside {width: 49%;float: right;}
+    aside {width: 49%;float: left;}
+    section {width: 50%;float: right;}
 }
 
 @media screen and (min-width: 1024px) {

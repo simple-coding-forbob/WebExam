@@ -4,10 +4,10 @@
 li {list-style-type: none;}
 #page {width: 90vw; height: 99vh;  margin: 0 auto;}
 
-footer {clear: both;height: 3rem;background-color: #191970;color: white;
+footer {clear: both;height: 3rem;background-color: black;color: white;
     font-size: 14px;font-style: italic;padding: 0 10px;margin: 10px 0;}
-#address {height: 100%;float: left;display: flex;align-items: center;}
-#customer {height: 100%;float: right;display: flex;align-items: center;}
+#customer {height: 100%;float: left;display: flex;align-items: center;}
+#address {height: 100%;float: right;display: flex;align-items: center;}
 
 @media screen and (min-width: 768px) {
 }

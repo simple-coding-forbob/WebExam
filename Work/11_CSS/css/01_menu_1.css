@@ -1,31 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-#page {
-    width: 90vw;
-    margin: 0 auto;
-}
-.logo {
-    float: left;
-    height: 3rem;
-    margin-top: 10px;
-}
-.menu {
-    float: right;
-    font-size: 1rem;
-    height: 3rem;
-    line-height: 3rem;
-    margin-top: 10px;
-}
-.menu li {
-    display: inline-block;
-}
-.main {
-    clear: both;
-    background-image: url("../../img/10_2_final_quiz.jpg");
-    background-position: center;
-    background-size: cover;
-    padding-top: calc(4 / 16 * 100%);
-}
+* {margin: 0;padding: 0;box-sizing: border-box;}
+#page {width: 90vw; margin: 0 auto;}
+
+.logo {float: left; height: 3rem; margin-top: 10px;}
+.menu {float: right; font-size: 1rem; height: 3rem; display: flex; align-items: center; margin-top: 10px;}
+.menu li {display: inline-block;margin-left: 1.5rem;}
+.main {height: 40vh; clear: both; background-image: url("../../img/11_1_menu_1.jpg"); background-position: center;
+    background-size: cover;}
