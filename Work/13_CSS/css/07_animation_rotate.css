@@ -1,0 +1,27 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    /* TODO: 애니메이션 효과 부여(함수 사용) */
+    /* TODO: 사용법 :  animation: 함수명 지속시간 infinite(무한); */    
+    animation: rotateBox 2.5s infinite;
+}
+@keyframes rotateBox {
+    /* TODO: 음수 : 왼쪽으로 회전, 양수 : 오른쪽으로 회전 */
+    /* TODO: rotateY(도(0~360)) : y축을 기준으로 회전 */
+    /* TODO: rotateX(도(0~360)) : x축을 기준으로 회전 */
+    /* TODO: perspective(픽셀) : 원근감 */
+    /* TODO: 사용법 : transform: perspective(위치) rotateY(0도 ~ 360도); */
+    /* TODO: 처음 */
+    from {
+        transform: perspective(200px) rotateY(0deg);
+    }
+    /* TODO: 중간 */
+    50% {
+        transform: perspective(200px) rotateY(180deg);
+    }
+    /* TODO: 끝 */
+    to {
+        transform: perspective(200px) rotateY(360deg);
+    }
+}

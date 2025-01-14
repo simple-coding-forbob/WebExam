@@ -1,0 +1,10 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+.box:hover {
+    /* 이동 효과 부여 */
+    /* 사용법 : transform: translate(x좌표거리, y좌표거리); */
+    transform: translate(50px, 50px);
+}

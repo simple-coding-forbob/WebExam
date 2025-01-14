@@ -1,0 +1,14 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* TODO: 애니메이션 부여 */
+    /* ease   : 시작(천천히효과부여)  중간(빨리효과부여) 끝(천천히효과부여) */
+    /* linear : 시작/중간/끝이 같은 속도로 애니메이션 진행 */
+    /* 사용법  : transition: 속성 효과 지속시간(s,ms); */
+    transition: all ease 1s;
+}
+.box:hover {
+    border-radius: 50%;
+    background-color: orange;
+}
