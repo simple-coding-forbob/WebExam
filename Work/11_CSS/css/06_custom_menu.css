@@ -1,25 +1,16 @@
-* {padding: 0;margin: 0; font-family: "Noto Sans KR", serif; box-sizing: border-box;}
-
-#page {width: 99vw;height: 99vh;margin: 0 auto;}
-nav {width: 100%;margin: 0 auto;}
-nav .brand {float:none; text-align: center; padding:1.5rem;}
-nav .fab {display:block; position:absolute; left:15px; top:25px;}
-nav .fab img {width: 2rem;}
-nav .fac {display:block; position:absolute; right:15px; top:25px;}
-nav .fac img {width: 2rem;}
-nav .menu {float:none; height:auto; margin: 0 15px; /*display: none;*/}
-nav .menu li {list-style-type: none; float:left; width:50%; border:1px solid var(--grayscale-20);}
-nav .menu li a {height:6rem; display: flex; align-items: center; justify-content: center;}
+nav {width: 100%; position: relative; margin: 0 auto;}
+nav .brand {text-align: center; padding:1.5rem;}
+nav .fab {position:absolute; right:15px; top:25px;}
+nav .fab img {display:block; width: 2rem;}
+nav .menu {display: flex;  gap: 10px; flex-wrap: wrap;}
+nav .menu li {flex: 1 1 calc(50% - 10px); border:1px solid var(--grayscale-20);}
+nav .menu li a {padding: 1rem; display: flex; align-items: center; justify-content: center;}
 nav .menu li a:hover {background-color: var(--blue-light-30); color: var(--white);}
 
 @media screen and (min-width: 768px) {
-  nav {width: 90%;}
-  nav .brand {float:left; padding:2.3rem;}
+  nav {width: 90%; display: flex; align-items: center; justify-content: space-between; }
   nav .fab {display:none;}
-  nav .fac {display:none;}
-  nav .menu {float:right; padding-top:5px;}
-  nav .menu li {width:inherit; border:none;}
-  nav .menu li a {padding:1rem 0.6rem;}
+  nav .menu li {border:none; flex: none}
 }
 
 @media screen and (min-width: 1024px) {
