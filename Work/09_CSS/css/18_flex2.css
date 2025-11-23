@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 60%;
+  background-color: lightgray;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.example {
+  flex: 0 0 calc(33.333% - 10px);
+  height: 500px;
+  background-color: blue;
+}
