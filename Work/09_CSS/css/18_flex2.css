@@ -12,6 +12,6 @@ body {
 }
 .example {
   flex: 0 0 calc(33.333% - 10px);
-  height: 500px;
+  height: 300px;
   background-color: blue;
 }
