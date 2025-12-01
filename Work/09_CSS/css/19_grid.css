@@ -2,8 +2,7 @@
     width: 99vw;
     height: 200px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    border: 5px solid orange;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .example1 {
     background-color: lightblue;
