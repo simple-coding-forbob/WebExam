@@ -3,7 +3,7 @@ nav .brand {text-align: center; padding:1.5rem;}
 nav .fab {position:absolute; right:15px; top:25px;}
 nav .fab img {display:block; width: 2rem;}
 nav .menu {display: flex;  gap: 10px; flex-wrap: wrap;}
-nav .menu li {flex: 1 1 calc(50% - 10px); border:1px solid var(--grayscale-20);}
+nav .menu li {flex: 0 0 calc(50% - 7px); border:1px solid var(--grayscale-20);}
 nav .menu li a {padding: 1rem; display: flex; align-items: center; justify-content: center;}
 nav .menu li a:hover {background-color: var(--blue-light-30); color: var(--white);}
 

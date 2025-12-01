@@ -1,17 +1,17 @@
-body {
-  display: flex;
-  justify-content: center;
-}
-
 .container {
-  width: 60%;
+  margin: 0 auto;
+  width: 60vw;
   background-color: lightgray;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
 .example {
-  flex: 0 0 calc(33.333% - 10px);
+  /* flex: 늘옵션 줄옵션 기본크기 */
+  /* 늘옵션: 1 - 공간이 있으면 박스를 늘임, 0 - 늘리지 않음 */
+  /* 줄옵션: 1 - 공간이 없으면 박스를 줄임, 0 - 기본 가로 크기이하로 줄이지 않음 */
+  /* 기본크기: 박스 기본 가로 크기 */
+  flex: 0 0 300px;
   height: 300px;
   background-color: blue;
 }

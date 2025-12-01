@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
 :root {
     /* Color styles */
-    --black: rgba(0, 0, 0, 1);
+    --black: black;
     --grayscale-90: rgba(28, 28, 30, 1);
     --grayscale-80: rgba(44, 44, 46, 1);
     --grayscale-70: rgba(54, 54, 57, 1);

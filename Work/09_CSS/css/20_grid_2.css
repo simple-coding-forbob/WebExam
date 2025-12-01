@@ -2,7 +2,7 @@
     width: 99vw;
     height: 200px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns: 1fr 1fr 1fr 1fr minmax(300px,1fr);
     border: 5px solid orange;
 }
 .example1 {
