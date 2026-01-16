@@ -1,18 +1,84 @@
-nav {width: 100%; position: relative; margin: 0 auto;}
-nav .brand {text-align: center; padding:1.5rem;}
-nav .fab {position:absolute; right:15px; top:25px;}
-nav .fab img {display:block; width: 2rem;}
-nav .menu {display: flex;  gap: 10px; flex-wrap: wrap;}
-nav .menu li {flex: 1 1 calc(33.3333% - 10px); border:1px solid var(--grayscale-20);}
-nav .menu li a {padding: 1rem; display: flex; align-items: center; justify-content: center;}
-nav .menu li a:hover {background-color: var(--blue-light-30); color: var(--white);}
-
-@media screen and (min-width: 768px) {
-  nav {width: 90%; display: flex; align-items: center; justify-content: space-between; }
-  nav .fab {display:none;}
-  nav .menu li {border:none; flex: none}
+/* 핸드폰 디자인 */
+nav {
+  width: 100%;
+  margin: 0 auto;
+  /* 상대좌표 추가 */
+  position: relative;
 }
 
-@media screen and (min-width: 1024px) {
-  nav {width: 60%;}
+.brand {
+  /* 글자 중앙정렬 */
+  text-align: center;
+  /* 안쪽여백: 16px=1rem */
+  padding: 1.5rem;
+}
+
+.fab {
+  /* 절대좌표 추가 */
+  position: absolute;
+  /* x좌표의 반대 */
+  right: 15px;
+  /* y좌표 */
+  top: 25px;
+}
+
+.fab img {
+  width: 2rem;
+  /* inline-block => block 변경(성격개조) */
+  display: block;
+}
+
+.menu {
+  /* flex 적용 */
+  display: flex;
+  /* 박스 사이 간격 */
+  gap: 10px;
+  /* 공간 부족시 내려가기 */
+  flex-wrap: wrap;
+}
+
+.menu li {
+  /* 균등 분활:2개씩 배치 */
+  flex: 0 0 calc(33% - 10px);
+  border: 1px solid gray;
+}
+
+.menu li a {
+  /* 가로/세로 중앙 이동 */
+  display: flex;
+  /* 가로 중앙 */
+  justify-content: center;
+  /* 세로 중앙 */
+  align-items: center;
+  /* 안쪽여백 */
+  padding: 1rem;
+}
+
+.menu li a:hover {
+  background-color: skyblue;
+}
+
+/* 반응형 웹, 테블릿 */
+@media screen and (min-width: 768px) {
+  /* 햄버거 메뉴 숨기기 */
+  .fab {
+    /* 성격 개조: 숨기기 */
+    display: none;
+  }
+
+  .menu li {
+    /* flex 삭제 */
+    flex: none;
+    /* 외곽선 삭제 */
+    border: none;
+  }
+  nav {
+    width: 90%;
+    /* flex 세로 중앙 */
+    display: flex;
+    /* flex 새로 중앙 */
+    align-self: center;
+    /* flex 옵션 1개(좌), 1개(우) */
+    justify-content: space-between;
+  }
 }

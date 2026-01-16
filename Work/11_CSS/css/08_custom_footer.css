@@ -1,8 +1,7 @@
-footer {padding: 10px; background-color: lightgrey;font-size: 0.8rem;font-style: italic; display:flex; flex-direction: column; gap: 10px;}
+footer {padding: 10px; background-color: lightgrey;font-size: 0.8rem;font-style: italic;}
 #address {display: flex;  align-items: center; gap: 10px;}
 #customer {display: flex; align-items: center;}
 
 @media screen and (min-width: 768px) {
-    footer {flex-direction: row; justify-content: space-between; align-items: center;}
+    footer {display: flex;  justify-content: space-between; align-items: center;}
 }
-  
