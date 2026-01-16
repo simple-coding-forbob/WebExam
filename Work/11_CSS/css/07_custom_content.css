@@ -15,6 +15,7 @@
 .product-list {display: flex; flex-wrap: wrap; gap: 10px;}
 .product-list li {flex: 0 0 calc(50% - 10px); border: 1px solid var(--blue-light-10);}
 .product-list li a {display:block; padding: 0.5rem; background-color: var(--blue-light-30);color: var(--white); text-align: center;}
+
 .product-box {display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;}
 .product {flex: 0 0 calc(100%);}
 .product img {width: 100%;}

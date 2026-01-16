@@ -1,0 +1,18 @@
+nav {width: 100%; position: relative; margin: 0 auto;}
+nav .brand {text-align: center; padding:1.5rem;}
+nav .fab {position:absolute; right:15px; top:25px;}
+nav .fab img {display:block; width: 2rem;}
+nav .menu {display: flex;  gap: 10px; flex-wrap: wrap;}
+nav .menu li {flex: 1 1 calc(33.3333% - 10px); border:1px solid var(--grayscale-20);}
+nav .menu li a {padding: 1rem; display: flex; align-items: center; justify-content: center;}
+nav .menu li a:hover {background-color: var(--blue-light-30); color: var(--white);}
+
+@media screen and (min-width: 768px) {
+  nav {width: 90%; display: flex; align-items: center; justify-content: space-between; }
+  nav .fab {display:none;}
+  nav .menu li {border:none; flex: none}
+}
+
+@media screen and (min-width: 1024px) {
+  nav {width: 60%;}
+}
